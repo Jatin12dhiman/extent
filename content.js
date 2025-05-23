@@ -369,7 +369,7 @@ Think carefully about the problem before answering. Double-check your answer.
 
 FORMAT: Your response must ONLY contain the letter or number or word that is the answer, nothing else.`;
     
-    const response = await fetch('https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent', {
+    const response = await fetch('https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -472,7 +472,7 @@ Please provide a detailed explanation following this structure:
 
 Make your explanation clear, precise, and mathematically accurate.`;
     
-    const response = await fetch('https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent', {
+    const response = await fetch('https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
